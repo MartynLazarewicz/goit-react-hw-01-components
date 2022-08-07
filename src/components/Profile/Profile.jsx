@@ -22,7 +22,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
           <img
             src={avatar}
             alt="User avatar"
-            class={profile__avatar}
+            className={profile__avatar}
             width="100"
             height="100"
           />
